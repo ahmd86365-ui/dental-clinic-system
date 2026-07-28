@@ -3,6 +3,8 @@ import { getCurrentStaff } from "@/lib/auth/current-staff";
 import { AdminShell } from "@/components/admin/admin-shell";
 import { StaffRoleProvider } from "@/components/admin/staff-role-context";
 
+export const dynamic = "force-dynamic";
+
 export default async function AdminLayout({
   children,
 }: {

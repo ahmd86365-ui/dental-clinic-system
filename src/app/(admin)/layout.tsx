@@ -5,6 +5,8 @@ import { ClinicSettingsProvider } from "@/components/clinic-settings-provider";
 import { getClinicSettings } from "@/lib/clinic-settings";
 import "@/app/globals.css";
 
+export const dynamic = "force-dynamic";
+
 const cairo = Cairo({
   variable: "--font-sans",
   subsets: ["arabic", "latin"],
