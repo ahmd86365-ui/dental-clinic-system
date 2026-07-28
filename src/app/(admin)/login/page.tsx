@@ -3,6 +3,8 @@ import { LoginForm } from "@/app/(admin)/login/login-form";
 import { getClinicSettings } from "@/lib/clinic-settings";
 import { ClinicLogo } from "@/components/clinic-logo";
 
+export const dynamic = "force-dynamic";
+
 export async function generateMetadata(): Promise<Metadata> {
   const settings = await getClinicSettings();
 
